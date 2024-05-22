@@ -10,7 +10,11 @@ namespace BTL_Quan_Ly_Quat_May
         private DataSet myDataSet;
         private DataTable myTable;
         private int pos = 0;
-        string connectString = @"Data Source=DESKTOP-A6GOITV;Initial Catalog=QL_Quat_May;Integrated Security=True;Encrypt=False";
+
+        //Tu laptop
+        string connectString = @"Data Source=DESKTOP-DSG4P1J;Initial Catalog=QL_Quat_May;Integrated Security=True;Encrypt=False";
+        // Tu desktop
+        //string connectString = @"Data Source=DESKTOP-A6GOITV;Initial Catalog=QL_Quat_May;Integrated Security=True;Encrypt=False";
         public FormDashboard()
         {
             InitializeComponent();
