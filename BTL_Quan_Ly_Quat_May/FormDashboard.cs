@@ -30,7 +30,7 @@ namespace BTL_Quan_Ly_Quat_May
             myConnection = new SqlConnection(connectString);
             myConnection.Open();
 
-            string SqlStr = "SELECT * FROM QuatMay"; 
+            string SqlStr = "SELECT * FROM QuatMay";
             //Tao thong qua xau ket noi da mo 
             myDataAdapter = new SqlDataAdapter(SqlStr, myConnection);
             myDataSet = new DataSet();
@@ -39,6 +39,21 @@ namespace BTL_Quan_Ly_Quat_May
             //Chuyen len luoi 
             dataGridView1.DataSource = myTable;
             dataGridView1.AutoGenerateColumns = false;
+        }
+
+        private void sdgsdgToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello");
+        }
+
+        private void aToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
