@@ -8,6 +8,8 @@ CREATE TABLE QuatMay (
     ThoiGianBaoHanh INT
 );
 
+edited...
+
 -- Chèn dữ liệu mẫu vào bảng Quạt Máy
 INSERT INTO QuatMay (MaQuat, LoaiQuat, TenQuat, CongSuat, DienAp, ThoiGianBaoHanh) VALUES
 ('QM001', 'Quạt trần', 'Quạt trần Panasonic', 75, 220, 24),
